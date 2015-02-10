@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/ddafdfssg"
+    android:contentDescription="Cute teddy">
+
+       <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleImageView"
+           android:src="@drawable/image1"
+           android:scaleType="fitXY"
+           android:layout_alignParentTop="true"
+           android:layout_centerHorizontal="true"
+           android:layout_alignParentStart="true"
+           android:layout_alignParentLeft="true"
+           android:adjustViewBounds="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit your data"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_above="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:hint="Enter Your Name" />
+
+</RelativeLayout>
