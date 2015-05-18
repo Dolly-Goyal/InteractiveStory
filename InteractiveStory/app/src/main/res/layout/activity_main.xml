@@ -21,20 +21,22 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Submit your data"
-        android:id="@+id/button"
+        android:text="Enter Your Adventure"
+        android:id="@+id/startButton"
         android:layout_alignParentBottom="true"
-        />
+        android:background="@android:color/white" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
-        android:id="@+id/editText"
-        android:layout_above="@+id/button"
-        android:layout_alignLeft="@+id/button"
-        android:layout_alignStart="@+id/button"
-        android:hint="Enter Your Name" />
+        android:id="@+id/nameEditTextt"
+        android:layout_above="@+id/startButton"
+        android:layout_alignLeft="@+id/startButton"
+        android:layout_alignStart="@+id/startButton"
+        android:hint="Enter Your Name"
+        android:clickable="true"
+        android:maxLength="30" />
 
 </RelativeLayout>
